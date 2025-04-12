@@ -1,9 +1,8 @@
 {
-    "rewrites": [
-      {
-        "source": "/memory",
-        "destination": "/api/memory"
-      }
-    ]
-  }
-  
+  "rewrites": [
+    {
+      "source": "/memory",
+      "destination": "/api/memory"
+    }
+  ]
+}
