@@ -12,7 +12,9 @@ app.all('/memory', async (req, res) => {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(req.body),
+      body: ['POST', 'PUT', 'PATCH'].includes(req.method.toUpperCase())
+  ? JSON.stringify(req.body)
+  : undefined,
     });
 
     const data = await response.json();
