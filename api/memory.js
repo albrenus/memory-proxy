@@ -23,4 +23,7 @@ app.all('/memory', async (req, res) => {
     res.status(500).json({ error: 'Proxy failed' });
   }
 });
-
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`✅ Memory proxy running on port ${PORT}`);
+});
