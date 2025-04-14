@@ -1,9 +1,10 @@
 {
   "type": "module",
-  "dependencies": {
-    "node-fetch": "^2.6.7"
-  },
   "scripts": {
-    "build": "echo 'no build step'"
+    "start": "node api/memory.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-fetch": "^2.7.0"
   }
 }
