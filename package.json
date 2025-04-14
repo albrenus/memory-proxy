@@ -1,21 +1,9 @@
 {
-  "name": "memory-proxy",
-  "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
   "scripts": {
-    "build": "echo 'No build step required'",
-    "start": "node api/memory.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/albrenus/memory-proxy.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/albrenus/memory-proxy/issues"
-  },
-  "homepage": "https://github.com/albrenus/memory-proxy#readme",
-  "description": ""
+    "build": "echo 'no build step'"
+  }
 }

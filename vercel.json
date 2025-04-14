@@ -4,11 +4,5 @@
     "api/memory.js": {
       "runtime": "nodejs18.x"
     }
-  },
-  "routes": [
-    {
-      "src": "/memory",
-      "dest": "api/memory.js"
-    }
-  ]
+  }
 }
